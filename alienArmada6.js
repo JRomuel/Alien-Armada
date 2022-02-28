@@ -70,7 +70,7 @@
 	//Load the tilesheet image
 	var image = new Image();
 	image.addEventListener("load", loadHandler, false);
-	image.src = "/img/alienarmada.png";
+	image.src = "img/alienarmada.png";
 	assetsToLoad.push(image);
 
 	//Variable to count the number of assets the game needs to load
